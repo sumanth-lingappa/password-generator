@@ -26,4 +26,4 @@ if isnumbers: possible_password_chars += number_chars
 
 password = random.choices(possible_password_chars, k=random.randint(minlen, maxlen))
 
-print(''.join(password))
+print(f"Password is: {''.join(password)})
